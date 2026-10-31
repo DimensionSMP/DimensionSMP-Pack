@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "glow": "dimensionsmp:item/fireball/glow",
+    "corona": "dimensionsmp:item/fireball/corona",
+    "orb": "dimensionsmp:item/fireball/orb",
+    "particle": "dimensionsmp:item/fireball/orb"
+  },
+  "elements": [
+    {
+      "from": [-8, -8, 7.9],
+      "to": [24, 24, 7.9],
+      "shade": false,
+      "light_emission": 15,
+      "faces": {
+        "south": {"uv": [0, 0, 16, 16], "texture": "#glow"},
+        "north": {"uv": [0, 0, 16, 16], "texture": "#glow"}
+      }
+    },
+    {
+      "from": [-4, -4, 8],
+      "to": [20, 20, 8],
+      "shade": false,
+      "light_emission": 15,
+      "faces": {
+        "south": {"uv": [0, 0, 16, 16], "texture": "#corona"},
+        "north": {"uv": [0, 0, 16, 16], "texture": "#corona"}
+      }
+    },
+    {
+      "from": [2, 2, 8.1],
+      "to": [14, 14, 8.1],
+      "shade": false,
+      "light_emission": 15,
+      "faces": {
+        "south": {"uv": [0, 0, 16, 16], "texture": "#orb"},
+        "north": {"uv": [0, 0, 16, 16], "texture": "#orb"}
+      }
+    }
+  ]
+}

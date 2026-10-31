@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "dimensionsmp:item/fireball/tail"
+    "model": "dimensionsmp:item/fireball/trail"
   }
 }
