@@ -1,0 +1,18 @@
+{
+  "textures": {
+    "t": "dimensionsmp:item/tornado/ground",
+    "particle": "dimensionsmp:item/tornado/ground"
+  },
+  "elements": [
+    {
+      "from": [-8, 8, -8],
+      "to": [24, 8, 24],
+      "shade": false,
+      "light_emission": 15,
+      "faces": {
+        "up": {"uv": [0, 0, 16, 16], "texture": "#t"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#t"}
+      }
+    }
+  ]
+}
